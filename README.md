@@ -1,6 +1,7 @@
 # USA Transportation Project Rail Speed Curvature Mapping
 
 This project estimates curvature-adjusted rail speeds for U.S. passenger and freight corridors, starting from routed rail segments.
+
 It processes each corridor’s path, calculates curvature-based speed limits for individual track segments, aggregates those speeds to the corridor level, and produces summary statistics and interactive maps.
 
 ---
@@ -44,24 +45,29 @@ USA_TRANSPORTATION_PROJECT_RAIL_SPEED_CURVATURE_MAPPING/
 ## Workflow Overview
 
 The pipeline consists of five main processing stages:
+
     1. Extract routed rail segments
         Script: extracted_routed_segments.py
         - Loads previously routed corridors from graph_cache.pkl & routed_corridors_cache.pkl
         - Exports individual rail segments used in the routes to 2 - Data_Segments/routed_segments.gpkg
+        
     2. Estimate curvature-adjusted speeds per segment
         Script: estimate_curvature_speed_per_segment.py
         - Reads routed_segments.gpkg
         - Calculates curve radius & applies superelevation-balance formulas
         - Writes routed_segments_curv.gpkg with per-segment curvature-based speed limits
+        
     3. Inspect or debug segment curvature (optional)
         Scripts:
         - inspect_routed_segments.py — interactive checks of specific segments
         - diagnostic_snippet.py — debugging speed/geometry calculations
+        
     4. Aggregate segment speeds to the corridor level
         Script: aggregate_curvature_by_corridor.py
         - Joins curvature-adjusted segment speeds back to corridor geometries
         - Produces corridors_with_curv_speed.gpkg with weighted average speeds per corridor
         - Outputs corridor_curvature_summary.csv with summary stats
+        
     5. Map average corridor curvature-adjusted speeds
         Script: map_curvature_avg_corridors.py
         - Loads corridors_with_curv_speed.gpkg
@@ -117,17 +123,27 @@ Optional: Use inspect_routed_segments.py or diagnostic_snippet.py for debugging 
 ### Notes
 
 Speed Model:
-    - Curvature speed limits are calculated using a superelevation-balance formula with assumed equilibrium & unbalanced superelevation values
-    - This does not include acceleration/deceleration or dwell time at stations — it reflects track geometry-limited running speeds only
+
+    Curvature speed limits are calculated using a superelevation-balance formula with assumed equilibrium & unbalanced superelevation values
+    This does not include acceleration/deceleration or dwell time at stations — it reflects track geometry-limited running speeds only
+    
 Caching:
-    - graph_cache.pkl and routed_corridors_cache.pkl come from the corridor routing step in the Mapping Foundation repo
-    - These caches prevent re-running expensive route computations
+
+    graph_cache.pkl and routed_corridors_cache.pkl come from the corridor routing step in the Mapping Foundation repo
+    These caches prevent re-running expensive route computations
+    
 Visualization:
-    - All maps are in WGS84 (EPSG:4326) for web display
-    - GPKG and CSV outputs are in projected CRS for accurate length/speed calculations
+
+    All maps are in WGS84 (EPSG:4326) for web display
+    GPKG and CSV outputs are in projected CRS for accurate length/speed calculations
 
 ---
+### Example Output Map
 
+![HSR Corridor Map Overview](images/USA_Corridor_Rail_Curvature.png)  
+*Interactive version available in [corridor_routes_map.html](Output/corridor_routes_map.html)*
+
+---
 ## License
 
 This project is licensed under the [Apache License 2.0](LICENSE).
