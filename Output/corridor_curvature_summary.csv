@@ -1,0 +1,101 @@
+from_to,total_length_mi,avg_curv_speed_mph
+0::Los Angeles-Long Beach-Anaheim--San Diego-Chula Vista-Carlsbad,117.74248277434725,129.63549564656898
+10::New York-Newark-Jersey City--Albany-Schenectady-Troy,153.6938720360513,123.28566568909669
+11::Austin-Round Rock-San Marcos--Houston-Pasadena-The Woodlands,188.70988127415774,130.50079440834992
+12::Chicago-Naperville-Elgin--Indianapolis-Carmel-Greenwood,195.3384374203933,140.17183792129106
+13::Reading--New York-Newark-Jersey City,128.1740885217568,126.80432534433751
+14::Detroit-Warren-Dearborn--Chicago-Naperville-Elgin,282.13155187911866,132.35034654412445
+15::New York-Newark-Jersey City--Worcester,187.28556205727227,121.34595048896674
+16::Dallas-Fort Worth-Arlington--Austin-Round Rock-San Marcos,206.73022756889867,134.50308767875185
+17::Chicago-Naperville-Elgin--Grand Rapids-Wyoming-Kentwood,177.49464426462288,136.14278806137315
+18::New York-Newark-Jersey City--Lancaster,147.75452551374386,131.92078363048262
+19::New York-Newark-Jersey City--Springfield,137.468292932542,122.09633049371973
+1::New York-Newark-Jersey City--Washington-Arlington-Alexandria,224.42903592882718,130.5570273606358
+20::San Antonio-New Braunfels--Houston-Pasadena-The Woodlands,213.0167324036027,139.10152135146237
+21::Las Vegas-Henderson-North Las Vegas--Los Angeles-Long Beach-Anaheim,319.49086235476875,131.25317913594006
+22::Tampa-St. Petersburg-Clearwater--Miami-Fort Lauderdale-West Palm Beach,243.9836568866749,142.04950214240927
+23::Seattle-Tacoma-Bellevue--Portland-Vancouver-Hillsboro,176.12721770349154,124.98262149129299
+24::Orlando-Kissimmee-Sanford--Miami-Fort Lauderdale-West Palm Beach,240.18348989990739,141.52603690480709
+25::San Francisco-Oakland-Fremont--Los Angeles-Long Beach-Anaheim,460.2343062966305,126.73281123223627
+26::Virginia Beach-Chesapeake-Norfolk--Washington-Arlington-Alexandria,218.8284330354249,134.65227530181747
+27::Phoenix-Mesa-Chandler--Los Angeles-Long Beach-Anaheim,427.7358425228908,137.42587764539894
+28::Harrisburg-Carlisle--New York-Newark-Jersey City,180.7112037524984,127.81430136698015
+29::Pittsburgh--New York-Newark-Jersey City,416.93973845980497,120.3762629971651
+2::New York-Newark-Jersey City--Boston-Cambridge-Newton,225.52194856265044,124.40604488582566
+30::Los Angeles-Long Beach-Anaheim--Santa Maria-Santa Barbara,116.85712977947362,126.26188047316778
+31::Madison--Chicago-Naperville-Elgin,134.842239381664,135.69786141775364
+32::New York-Newark-Jersey City--Norwich-New London-Willimantic,134.21860531552403,118.44456829752879
+33::Philadelphia-Camden-Wilmington--Boston-Cambridge-Newton,305.9709321256355,126.85234544114523
+34::Pittsburgh--Washington-Arlington-Alexandria,275.9359166140769,102.81325397821104
+35::Phoenix-Mesa-Chandler--Tucson,118.82970376200447,142.7201878361708
+36::New York-Newark-Jersey City--Virginia Beach-Chesapeake-Norfolk,345.9085266016393,139.6477966657011
+37::Pittsburgh--Cleveland,129.5322076573578,132.86093947120494
+38::Chicago-Naperville-Elgin--St. Louis,272.1637730011397,141.57964689109883
+39::Birmingham--Atlanta-Sandy Springs-Roswell,151.23241531334713,105.86601832500784
+3::Philadelphia-Camden-Wilmington--Washington-Arlington-Alexandria,137.8567531045968,132.69662255794023
+40::Philadelphia-Camden-Wilmington--Bridgeport-Stamford-Danbury,133.43116518944265,129.96346591666085
+41::Atlanta-Sandy Springs-Roswell--Nashville-Davidson--Murfreesboro--Franklin,243.77843758604172,118.10781078380509
+42::New York-Newark-Jersey City--York-Hanover,181.44152251550983,128.8319770260123
+43::Cape Coral-Fort Myers--Miami-Fort Lauderdale-West Palm Beach,317.71176482122314,142.2053435120688
+44::San Antonio-New Braunfels--Dallas-Fort Worth-Arlington,282.99789243809533,134.4401253778365
+45::Los Angeles-Long Beach-Anaheim--Fresno,645.2496311427728,130.34929863551366
+46::Detroit-Warren-Dearborn--New York-Newark-Jersey City,650.7248415622314,127.94320707263827
+47::Atlanta-Sandy Springs-Roswell--Charlotte-Concord-Gastonia,242.8243879467736,107.36995643869685
+48::Philadelphia-Camden-Wilmington--Scranton--Wilkes-Barre,162.97667221777806,100.98015330294888
+49::Atlanta-Sandy Springs-Roswell--Greenville-Anderson-Greer,147.1347480789745,109.62340322705636
+4::New York-Newark-Jersey City--Hartford-West Hartford-East Hartford,110.52961404444814,122.71229687040037
+50::Detroit-Warren-Dearborn--Columbus,181.34950245889132,141.88619040747207
+51::Oklahoma City--Dallas-Fort Worth-Arlington,220.123528561424,133.51961443164038
+52::Chicago-Naperville-Elgin--Cincinnati,297.44099747508824,139.01405956971877
+53::New York-Newark-Jersey City--Syracuse,287.0134216822435,128.3878202502883
+54::Richmond--New York-Newark-Jersey City,335.7173271252367,129.53940099443446
+55::Rochester--New York-Newark-Jersey City,374.57178396047874,129.54109962584783
+56::Philadelphia-Camden-Wilmington--Kiryas Joel-Poughkeepsie-Newburgh,137.97145350134423,130.31225998312343
+57::Columbus--Cleveland,137.16204806279214,142.94896994040462
+58::Orlando-Kissimmee-Sanford--Jacksonville,143.19934701532577,140.08115151384987
+59::Las Vegas-Henderson-North Las Vegas--Riverside-San Bernardino-Ontario,281.2384380904025,129.34269566968763
+5::New York-Newark-Jersey City--Baltimore-Columbia-Towson,187.0050196403699,132.6059548814286
+60::Chicago-Naperville-Elgin--Minneapolis-St. Paul-Bloomington,402.347562228528,136.2939920233255
+61::Los Angeles-Long Beach-Anaheim--San Jose-Sunnyvale-Santa Clara,399.90040205748335,125.31295633592332
+62::Dallas-Fort Worth-Arlington--Killeen-Temple,157.0248640458455,133.34875837133424
+63::Detroit-Warren-Dearborn--Grand Rapids-Wyoming-Kentwood,150.63852253822103,137.36978132664547
+64::Knoxville--Atlanta-Sandy Springs-Roswell,189.34097037100003,122.19862841662093
+65::Charlotte-Concord-Gastonia--Raleigh-Cary,142.41025919630317,116.52407429778955
+66::Chicago-Naperville-Elgin--Columbus,316.050996879259,143.89117767890806
+67::New York-Newark-Jersey City--Buffalo-Cheektowaga,423.8006005528281,118.6126895290185
+68::New York-Newark-Jersey City--Cleveland,546.0848126225599,121.71893653667381
+69::Allentown-Bethlehem-Easton--Washington-Arlington-Alexandria,208.909831719921,117.77902609532411
+6::Providence-Warwick--New York-Newark-Jersey City,179.1057821195649,123.7608653493677
+70::Sacramento-Roseville-Folsom--Los Angeles-Long Beach-Anaheim,536.8669229623679,125.15472138319294
+71::Riverside-San Bernardino-Ontario--Bakersfield-Delano,192.45326952955554,122.84918190074795
+72::Phoenix-Mesa-Chandler--Riverside-San Bernardino-Ontario,386.2801687830406,137.13250976530574
+73::Pittsburgh--Detroit-Warren-Dearborn,291.85026522131045,134.60560520445355
+74::New York-Newark-Jersey City--Binghamton,223.33452678287406,116.98868704411831
+75::Philadelphia-Camden-Wilmington--Pittsburgh,331.75908417942617,118.78438034164232
+76::Philadelphia-Camden-Wilmington--Hartford-West Hartford-East Hartford,190.27132364813906,126.53496521566596
+77::Richmond--Baltimore-Columbia-Towson,147.6650932834532,133.7808032490237
+78::Orlando-Kissimmee-Sanford--North Port-Bradenton-Sarasota,136.609426006459,139.82277221609098
+79::Boston-Cambridge-Newton--Bridgeport-Stamford-Danbury,190.2552739749023,124.52703363364232
+7::Dallas-Fort Worth-Arlington--Houston-Pasadena-The Woodlands,255.61329630845563,136.70304056086576
+80::Visalia--Los Angeles-Long Beach-Anaheim,237.18540033992605,126.20889073760262
+81::Chicago-Naperville-Elgin--Peoria,144.25719946888705,138.4355512994437
+82::Albany-Schenectady-Troy--Boston-Cambridge-Newton,195.11698027211807,113.23184210541628
+83::Philadelphia-Camden-Wilmington--Virginia Beach-Chesapeake-Norfolk,256.92821232189857,140.826048722519
+84::Miami-Fort Lauderdale-West Palm Beach--North Port-Bradenton-Sarasota,291.1351670777869,142.16005120124368
+85::Indianapolis-Carmel-Greenwood--Louisville/Jefferson County,123.71979678331914,140.6950068189657
+86::San Francisco-Oakland-Fremont--Fresno,196.53741640322505,137.70749412168666
+87::Manchester-Nashua--New York-Newark-Jersey City,243.26177965776407,119.08276502019098
+88::New York-Newark-Jersey City--Dover,163.25672072040618,135.6080085005617
+89::Fort Wayne--Chicago-Naperville-Elgin,151.2334921747879,143.95272686823935
+8::Los Angeles-Long Beach-Anaheim--Bakersfield-Delano,754.6585046817742,132.57711545804997
+90::Detroit-Warren-Dearborn--Akron,180.98710315915844,137.4655136999021
+91::Chicago-Naperville-Elgin--Cleveland,340.43858588162345,143.98192722658686
+92::Atlanta-Sandy Springs-Roswell--Augusta-Richmond County,169.11002435783024,122.91540048425414
+93::Pittsburgh--Columbus,182.05062173580882,121.75726954520144
+94::Reading--Washington-Arlington-Alexandria,171.73433619450407,116.07133588741904
+95::Boston-Cambridge-Newton--Washington-Arlington-Alexandria,446.30088416227807,128.89592020679297
+96::New York-Newark-Jersey City--Pottsville,152.7152800647857,123.34539083315626
+97::Philadelphia-Camden-Wilmington--Providence-Warwick,259.9773616336296,125.93699062568834
+98::Baltimore-Columbia-Towson--Allentown-Bethlehem-Easton,185.1502058804855,122.34203917171033
+99::New Haven--Boston-Cambridge-Newton,145.43032760004579,127.1605015527364
+9::New York-Newark-Jersey City--Scranton--Wilkes-Barre,170.8297362216773,118.15732619303101
