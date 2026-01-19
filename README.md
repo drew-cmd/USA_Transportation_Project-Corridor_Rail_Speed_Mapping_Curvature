@@ -141,7 +141,7 @@ Visualization:
 ### Example Output Map
 
 ![HSR Corridor Map Overview](images/USA_Corridor_Rail_Curvature.png)  
-*Interactive version available in [corridor_routes_map.html](Output/corridor_routes_map.html)*
+*Interactive version available in [corridor_routes_map.html](Output/corridor_curvature_avg_map.html)*
 
 ---
 ## License
